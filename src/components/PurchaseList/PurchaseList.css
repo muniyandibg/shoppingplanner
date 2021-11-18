@@ -1,0 +1,43 @@
+.PurchaseListContainer {
+  width: 100%;
+  max-width: 480px;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+.PurchaseListHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.PurchaseListHeaderTitle {
+  font-weight: 400;
+  font-size: 18px;
+}
+.addNewItem {
+  background-color: lightgray;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+.PurchaseListFooter {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.PurchaseItemContainer {
+  width: 100%;
+  max-width: 480px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px solid lightgray;
+  padding: 10px 0px;
+}
+.ItemNumber {
+  margin-right: 10px;
+}
+.ItemAmount {
+  margin-right: 10px;
+}
